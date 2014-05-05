@@ -1,9 +1,7 @@
 base_project
 ============
 
-Manderl - a Mailchimp Mandrill interface for Erlang
-
-This module provides a simple, limited interface for [Mandrill](https://mandrillapp.com/api/docs/), the API mail interface from [MailChimp](http://mailchimp.com/).
+This is a checkout template for Erlang applications, with rebar and plt stuff in place already a la Concrete, and some other customizations, like having my name already in place and always needing `proper` and so on.
 
 
 
