@@ -3,28 +3,43 @@ base_project
 
 This is a checkout template for Erlang applications, with rebar and plt stuff in place already a la Concrete, and some other customizations, like having my name already in place and always needing `proper` and so on.
 
+If this text is still here, then I haven't finished the update steps below yet after a checkout.
+
+To check out transparently over a repo, go into the base project directory and type `git checkout-index -a -f --prefix=/c/projects/reponame/`.  ***It is important to not lose the trailing slash.***
+
+1. Go fix the filename of the `.app.src` in source, and update the appname inside.
+1. Clear the whargarbls in this file
+1. Update any deps needed
+1. Compile and test before updating
 
 
-How to shot web
----------------
-
-To check out transparently over a repo, `git checkout-index -a -f --prefix=/c/projects/reponame/`.
 
 
 
-Status
-------
+tl;dr
+-----
 
-This is new, but derived from something mature (the concrete auto-project,) so this may be usable soon.
+`rebar g-d co eu doc`
 
-If you use this, you should probably fork it and re-customize it with your own data, instead of using it directly, so that you don't have to fix it every time you use it.
+
+
+
+
+Current Library Status: *Usable*
+--------------------------------
+
+This library is considered to be (`whargarbl` ready | not ready and why)
+
+`whargarbl` Unit testing and stochastic testing and doc notes.
+
+Improvements will be gladly accepted.
 
 
 
 Author
 ------
 
-* John Haugeland <stonecypher@gmail.com>
+* John Haugeland <stonecypher@gmail.com> of [http://fullof.bs/](http://fullof.bs/).
 
 
 
@@ -38,4 +53,4 @@ Copyright (c) 2014 John Haugeland.  All rights reserved.
 Polemic :neckbeard:
 -------------------
 
-`base_project` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it's free for everyone.
+`whargarbl` is MIT licensed, because viral licenses and newspeak language modification are evil.  Free is ***only*** free when it's free for everyone.
