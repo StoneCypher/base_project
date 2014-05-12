@@ -3,5 +3,8 @@ ebin/*
 deps/*
 rel/example_project
 .concrete/DEV_MODE
-deps.plt
+*.plt
 .eunit
+*.o
+erl_crash.dump
+.rebar
