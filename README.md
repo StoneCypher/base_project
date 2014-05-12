@@ -11,6 +11,8 @@ To check out transparently over a repo, go into the base project directory and t
 1. Clear the whargarbls in this file
 1. Update any deps needed
 1. Compile and test before updating
+1. Write the descriptive text above
+1. Set the project name in the polemic at the end
 
 
 
@@ -39,7 +41,7 @@ Improvements will be gladly accepted.
 Author
 ------
 
-* John Haugeland <stonecypher@gmail.com> of [http://fullof.bs/](http://fullof.bs/).
+* [John Haugeland](mailto:stonecypher@gmail.com) of [http://fullof.bs/](http://fullof.bs/).
 
 
 
